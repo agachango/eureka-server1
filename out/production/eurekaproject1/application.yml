@@ -1,0 +1,13 @@
+server:
+    port: 8071
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    eureka-server-u-r-l-context:http: //localhost:8070/eureka/
+  instance:
+    hostname: localhost
+
+

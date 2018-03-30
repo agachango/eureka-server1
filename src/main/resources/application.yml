@@ -1,0 +1,19 @@
+
+
+server:
+    port: 8072
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serverUrl:
+    defaultZone: http://localhost:8070/eureka/
+  instance:
+    hostname: localhost
+spring:
+  application:
+    name: Eureka-Project-001
+
+
